@@ -1,0 +1,3 @@
+/home/ilya/CLionProjects/oskp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ilya/CLionProjects/oskp/cmake-build-debug/CMakeFiles/oskp.dir
+/home/ilya/CLionProjects/oskp/cmake-build-debug/CMakeFiles/edit_cache.dir

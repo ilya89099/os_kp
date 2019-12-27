@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/oskp.dir/main.cpp.o CMakeFiles/oskp.dir/ListAllocator.cpp.o CMakeFiles/oskp.dir/N2Allocator.cpp.o  -o oskp 

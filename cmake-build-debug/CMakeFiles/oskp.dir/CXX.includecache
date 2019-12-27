@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ilya/CLionProjects/oskp/ListAllocator.h
+iostream
+-
+algorithm
+-
+list
+-
+
+/home/ilya/CLionProjects/oskp/N2Allocator.h
+iostream
+-
+list
+-
+algorithm
+-
+vector
+-
+
+/home/ilya/CLionProjects/oskp/main.cpp
+iostream
+-
+chrono
+-
+N2Allocator.h
+/home/ilya/CLionProjects/oskp/N2Allocator.h
+ListAllocator.h
+/home/ilya/CLionProjects/oskp/ListAllocator.h
+
