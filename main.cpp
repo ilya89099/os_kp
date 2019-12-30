@@ -103,7 +103,7 @@ int main() {
             allocator.deallocate(pointers[i]);
         }
         steady_clock::time_point test_end = steady_clock::now();
-        std::cerr << "List allocator second test:"
+        std::cerr << "List allocator second test:\n"
                 << "Allocation :" << duration_cast<std::chrono::microseconds>(alloc_end - alloc_start).count() << " microseconds" << "\n"
                 << "Deallocation :" << duration_cast<std::chrono::microseconds>(test_end - alloc_end).count() << " microseconds" << "\n";
     }
@@ -158,7 +158,39 @@ int main() {
             allocator.deallocate(pointers[i]);
         }
     }
-
+    std::cerr << "Fourth test: Allocate and free 1500 20 bytes arrays:\n";
+    {
+        N2Allocator allocator({.block_16 = 0, .block_32 = 800, .block_64 = 800});
+        std::vector<char *> pointers(1500, 0);
+        steady_clock::time_point alloc_start = steady_clock::now();
+        for (int i = 0; i < 1500; ++i) {
+            pointers[i] = (char *) allocator.allocate(20);
+        }
+        steady_clock::time_point alloc_end = steady_clock::now();
+        for (int i = 0; i < 1500; ++i) {
+            allocator.deallocate(pointers[i]);
+        }
+        steady_clock::time_point test_end = steady_clock::now();
+        std::cerr << "N2 allocator fourth test:\n"
+                  << "Allocation :" << duration_cast<std::chrono::microseconds>(alloc_end - alloc_start).count() << " microseconds" << "\n"
+                  << "Deallocation :" << duration_cast<std::chrono::microseconds>(test_end - alloc_end).count() << " microseconds" << "\n";
+    }
+    {
+        ListAllocator allocator(32000);
+        std::vector<char *> pointers(1500, 0);
+        steady_clock::time_point alloc_start = steady_clock::now();
+        for (int i = 0; i < 1500; ++i) {
+            pointers[i] = (char *) allocator.allocate(20);
+        }
+        steady_clock::time_point alloc_end = steady_clock::now();
+        for (int i = 0; i < 1500; ++i) {
+            allocator.deallocate(pointers[i]);
+        }
+        steady_clock::time_point test_end = steady_clock::now();
+        std::cerr << "List allocator fourth test:\n"
+                  << "Allocation :" << duration_cast<std::chrono::microseconds>(alloc_end - alloc_start).count() << " microseconds" << "\n"
+                  << "Deallocation :" << duration_cast<std::chrono::microseconds>(test_end - alloc_end).count() << " microseconds" << "\n";
+    }
 
     return 0;
 }

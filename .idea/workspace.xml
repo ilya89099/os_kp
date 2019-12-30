@@ -11,7 +11,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="669b303a-523a-4011-b062-bc32d01df90a" name="Default Changelist" comment="" />
+    <list default="true" id="669b303a-523a-4011-b062-bc32d01df90a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.~lock.kp.odt#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oskp.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oskp.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oskp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/oskp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kp.odt" beforeDir="false" afterPath="$PROJECT_DIR$/kp.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kp.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/kp.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.odt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +32,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VUHNgMTjU87I6goMJCxpXPMEJo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -69,6 +84,8 @@
       <workItem from="1577300717695" duration="8547000" />
       <workItem from="1577359867390" duration="45000" />
       <workItem from="1577395983542" duration="19140000" />
+      <workItem from="1577434942770" duration="141000" />
+      <workItem from="1577440353375" duration="3418000" />
     </task>
     <servers />
   </component>
@@ -76,22 +93,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1554" height="267" key="GridCell.Tab.0.bottom" timestamp="1577420985565">
+    <state width="1554" height="267" key="GridCell.Tab.0.bottom" timestamp="1577458611463">
       <screen x="0" y="0" width="1600" height="854" />
     </state>
-    <state width="1554" height="267" key="GridCell.Tab.0.bottom/0.0.1600.854@0.0.1600.854" timestamp="1577420985565" />
-    <state width="1554" height="267" key="GridCell.Tab.0.center" timestamp="1577420985564">
+    <state width="1554" height="267" key="GridCell.Tab.0.bottom/0.0.1600.854@0.0.1600.854" timestamp="1577458611463" />
+    <state width="1554" height="267" key="GridCell.Tab.0.center" timestamp="1577458611461">
       <screen x="0" y="0" width="1600" height="854" />
     </state>
-    <state width="1554" height="267" key="GridCell.Tab.0.center/0.0.1600.854@0.0.1600.854" timestamp="1577420985564" />
-    <state width="1554" height="267" key="GridCell.Tab.0.left" timestamp="1577420985564">
+    <state width="1554" height="267" key="GridCell.Tab.0.center/0.0.1600.854@0.0.1600.854" timestamp="1577458611461" />
+    <state width="1554" height="267" key="GridCell.Tab.0.left" timestamp="1577458611461">
       <screen x="0" y="0" width="1600" height="854" />
     </state>
-    <state width="1554" height="267" key="GridCell.Tab.0.left/0.0.1600.854@0.0.1600.854" timestamp="1577420985564" />
-    <state width="1554" height="267" key="GridCell.Tab.0.right" timestamp="1577420985564">
+    <state width="1554" height="267" key="GridCell.Tab.0.left/0.0.1600.854@0.0.1600.854" timestamp="1577458611461" />
+    <state width="1554" height="267" key="GridCell.Tab.0.right" timestamp="1577458611462">
       <screen x="0" y="0" width="1600" height="854" />
     </state>
-    <state width="1554" height="267" key="GridCell.Tab.0.right/0.0.1600.854@0.0.1600.854" timestamp="1577420985564" />
+    <state width="1554" height="267" key="GridCell.Tab.0.right/0.0.1600.854@0.0.1600.854" timestamp="1577458611462" />
     <state width="1554" height="264" key="GridCell.Tab.1.bottom" timestamp="1577417808669">
       <screen x="0" y="0" width="1600" height="854" />
     </state>
